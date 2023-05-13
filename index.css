@@ -42,7 +42,9 @@ li button{
 img{
 height: 500px;
 width: 500px;
-margin-left: 90px;
-
-
+margin-left: 400px;
+margin-bottom: 300px;
+border-bottom: 2px solid white;
+box-shadow: 5px 10px 10px  #888888;
+background-color: white;
 }
