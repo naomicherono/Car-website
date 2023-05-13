@@ -1,0 +1,28 @@
+li{
+    display: inline-block;
+    padding: 15px;
+    font-weight: 500;
+}
+.nav-bar{
+    border-bottom: 1px solid black;
+    
+}
+li button{
+    background-color: rgb(241, 94, 26);
+    border-radius: 6px;
+    font-weight: bold;
+    border:none;
+    padding: 5px 15px;
+}
+.column1{
+    float:left;
+    width: 33.33%;
+    margin-left:25px;
+    font-weight: 900;
+}
+.column2{
+    width: 33.33%;
+    float:left;
+    margin-bottom: 80px;;
+}
+
