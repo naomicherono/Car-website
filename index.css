@@ -12,17 +12,30 @@ li button{
     border-radius: 6px;
     font-weight: bold;
     border:none;
-    padding: 5px 15px;
+    padding: 15px;
 }
 .column1{
     float:left;
     width: 33.33%;
     margin-left:25px;
-    font-weight: 900;
+    font-size: x-large;
 }
 .column2{
     width: 33.33%;
     float:left;
     margin-bottom: 80px;;
 }
-
+.column4{
+    float: left;
+    clear: left;
+    margin-left: 30px;
+}
+.Rent{
+    background-color: white;
+    color: orangered;
+    border: 1px solid orangered;
+    padding: 15px;
+}
+.Buy{
+    padding: 15px;
+}
