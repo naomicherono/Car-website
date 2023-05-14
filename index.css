@@ -1,4 +1,4 @@
-li{
+.nav{
     display: inline-block;
     padding: 15px;
     font-weight: 500;
@@ -43,7 +43,7 @@ li button{
 }
 .imgtop{
 height: 500px;
-width: 500px;
+width: 900px;
 margin-left: 400px;
 margin-bottom: 300px;
 border-bottom: 2px solid white;
@@ -60,9 +60,8 @@ background-color: white;
     background-color: white;
     border: 1px solid lightgrey;
 }
-.types .mercedes {
-    background-color: orangered;
-}
+
+
 
 .row2 {
     margin-bottom: 400px;
@@ -170,39 +169,6 @@ background-color: white;
     box-shadow: none;
 }
 
-/* .row4 {
-    margin-top: 600px   ;
-} */
-
-/* .card {
-    background-color:rgb(250, 243, 235);
-    width: 80%;
-    margin: 30px;
-    height: 300px;
-    border-radius: 25px;
-}
-
-/* .download {
-    padding: 50px;
-    margin-left: 500px;
-} */
-
-/* .download li {
-    display: inline-block;
-    
-}
-
-.download img{
-    height: 100px;
-    width: 200px;
-    background-color: antiquewhite;
-}
-
-.column-download {
-    float: left;
-    width: auto;
-    display: inline;
-} */ 
 .appstore{
     width: 200px;
     height: 100px;
@@ -215,6 +181,10 @@ background-color: white;
     text-align: center;
     background-color: antiquewhite;
     height: 300px;
+    border-radius: 15PX;
+    margin-left: 25px;
+    margin-right: 25px;
+    box-shadow: 10px 5px 2px #888888;
 }
 .playstore{
     width: 120px;
@@ -230,4 +200,89 @@ background-color: white;
     margin-left: 800px;
     margin-top: -600px;
     margin-bottom: -50px;
+}
+.column10{
+    float: left;
+    width: 20%;
+    margin-left: 25px;
+
+}
+.column11{
+    float: left;
+    width: 20%;
+
+}
+.column12{
+    float: left;
+    width: 20%;
+}
+input{
+    display: list-item;
+    border-radius: 6px;
+    padding: 10px;
+    border: 3px solid orangered;
+    margin: 6px;
+}
+.submit{
+    background-color: orangered;
+}
+h6{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+.column13{
+    margin-top: 100px;
+}
+#benz{
+    float: right;
+}
+#car1{
+    border-radius: 10px;
+    border: none;
+    font-weight: 900;
+    background-color: orangered;
+    padding: 1px 30px;
+}
+
+#car2{
+    background-color: white;
+    border-radius: 10px;
+    padding: 1px 30px;
+    margin: 8px;
+    border: 1px solid lightgray;
+}
+#Mercedes{
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    border:5px solid none ;
+    background-color: orangered;
+}
+#audi{
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    border:5px solid none ;
+
+}
+#honda{
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    border:5px solid none ;
+
+}
+#toyota{
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    border:5px solid none ;
+    
+}
+#mazda{
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    border:5px solid none ;
+
 }
