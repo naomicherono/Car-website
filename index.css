@@ -51,9 +51,66 @@ background-color: white;
 .top-rated{
     padding-bottom: -800;
     margin-left: 25px;
-}types{
-    padding: 15px;
-    border:1px solid grey;
-    background-color: aliceblue;
+}
+.types button{
+    padding: 15px 30px;
+    margin: 20px;
+    background-color: white;
+    border: 1px solid lightgrey;
+}
+.types .mercedes {
+    background-color: orangered;
+}
+
+.row2 {
+    margin-bottom: 400px;
+}
+span{
+    color: orangered;
+}
+
+.flex-container{
+    display:flex;
+    flex-direction:row;
+    background-color: white;
+}
+.flex-container > div {
+    background-color: white;
+    width: 33.33%;
+    margin: 10px;
+    font-size: 20px;
+    margin-left: 35px;
+    margin-top: -350px;
+    border: 1px solid grey;
     
+}
+.cars {
+    margin-left: 20px;
+    height: 300px;
+    width: 90%;
+}
+@media (max-width: 800px) {
+    .flex-container > div{
+      flex-direction: column;
+    }
+  }
+
+.column-items {
+    display: inline-block;
+    float: left;
+
+}
+.get-info{
+   background-color: orangered; 
+   float: left;
+   clear: left;
+   margin-bottom: 10px;
+   border:none ;
+   border-radius: 3px;
+   padding: 10px 15px;
+   font-weight: 600;
+   margin-left: 10px;
+}
+.items-row {
+    margin-top: -280px;
 }
