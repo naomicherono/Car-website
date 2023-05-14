@@ -135,3 +135,27 @@ span{
     background-color: white;
     
 }
+.clients{
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.client-column{
+float: left;
+width: 30%;
+padding: 10px;
+margin-left: 10px;
+padding-top: 40px;
+text-align: center;
+margin-right: 10px;
+}
+
+.client-image {
+    height: 300px;
+    width: 100%;
+    float: right;
+    clear: right;
+    display: inline-block;
+    margin-bottom: 30px;
+
+}
