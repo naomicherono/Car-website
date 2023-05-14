@@ -1,3 +1,4 @@
+
 .nav{
     display: inline-block;
     padding: 15px;
@@ -29,27 +30,46 @@ li button{
 }
 .column4{
     float: left;
-    clear: left;
+    margin-left: 150px;
+    margin-top: 80px;
+    font-size: 25px;
+    width: 40%;
+
+}
+.column-tp{
+    float: left;
     margin-left: 30px;
+    margin-top: 30px;
+    font-size: 25px;
+    width: 40%;
+    box-shadow: 1px 5px 5px 1px rgb(211, 201, 201) ;
+
+}
+.imgtp{
+    margin-left: -140px;
+    width: 80%;
+    height: 500px;
+    
 }
 .Rent{
     background-color: white;
     color: orangered;
     border: 1px solid orangered;
-    padding: 15px;
+    padding: 20px 60px;
 }
 .Buy{
-    padding: 15px;
+    padding: 20px 60px;
 }
-.imgtop{
-height: 500px;
-width: 900px;
-margin-left: 400px;
-margin-bottom: 300px;
-border-bottom: 2px solid white;
-box-shadow: 5px 10px 10px  #888888;
-background-color: white;
+
+.column-img {
+    float: left;
+    width: 50%;
+    margin-top: -140px;
+    margin-left: 100px;
+    
 }
+
+
 .top-rated{
     padding-bottom: -800;
     margin-left: 25px;
@@ -64,7 +84,8 @@ background-color: white;
 
 
 .row2 {
-    margin-bottom: 400px;
+    margin-top: 650px;
+    margin-left: 100px;
 }
 span{
     color: orangered;
@@ -74,6 +95,8 @@ span{
     display:flex;
     flex-direction:row;
     background-color: white;
+    margin-left: 100px;
+    margin-right: 100px;
     
 }
 .flex-container > div {
@@ -82,8 +105,10 @@ span{
     margin: 10px;
     font-size: 20px;
     margin-left: 35px;
-    margin-top: -350px;
-    border: 1px solid grey;
+    margin-top: 100px;
+    box-shadow: 10px 5px 10px 5px rgb(211, 201, 201) ;
+    border-radius: 10px;
+
     
 }
 .cars {
@@ -127,7 +152,8 @@ background-color: white;
     font-size: 20px;
     margin-left: 35px;
     margin-top: 50px;
-    border: 1px solid grey;
+    box-shadow: 10px 5px 10px 5px rgb(211, 201, 201) ;
+    border-radius: 10px;
 }
 .type2{
     margin-left: 20px;
@@ -138,14 +164,15 @@ background-color: white;
     display:flex;
     flex-direction:row;
     background-color: white;
-    
+    margin-left: 100px;
+    margin-right: 100px;
 }
 .clients{
     margin-left: 80px;
     margin-right: 80px;
     font-size: 15px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin-left: 35px;
+    margin-left: 130px;
 }
 
 .client-column{
@@ -182,14 +209,14 @@ background-color: white;
     background-color: antiquewhite;
     height: 300px;
     border-radius: 15PX;
-    margin-left: 25px;
-    margin-right: 25px;
+    margin-left: 140px;
+    margin-right: 180px;
     box-shadow: 10px 5px 2px #888888;
 }
 .playstore{
     width: 120px;
-    height: 80px;
-    margin-bottom: 100px;
+    height: 40px;
+    margin-bottom: 112px;
     margin-left: 20px;
     background-color: antiquewhite;
 
@@ -201,9 +228,12 @@ background-color: white;
     margin-top: -600px;
     margin-bottom: -50px;
 }
+.row5{
+    margin-left: 180px;
+}
 .column10{
     float: left;
-    width: 20%;
+    width: 25%;
     margin-left: 25px;
 
 }
@@ -285,4 +315,8 @@ h6{
     border-radius: 10px;
     border:5px solid none ;
 
+}
+.persona{
+    display: inline-block;
+    margin: 60px;
 }
