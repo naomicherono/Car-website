@@ -1,4 +1,4 @@
-# My Portolio
+# Car-Website
 ### Author 
 ``` 
 Naomi Cherono
@@ -6,7 +6,7 @@ Naomi Cherono
 ```
 ## Project Description
 ```
-This is my personal portfolio showing my profile,my biography and some of my skills on what i do
+My project development is about car store dealers.
 ```
 
 ## Project SetUp and Instructions
