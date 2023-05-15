@@ -32,7 +32,7 @@ Vscode
 ### lINK TO LIVE SITE
 ##### https://naomicherono.github.io/Car-website/
 
-## Sketch Design
+## Design
 <img width="1440" alt="Landing-page" src="https://github.com/naomicherono/Car-website/assets/132652298/381b9db7-f49d-4b60-97a3-3d00ec613471">
 
 
